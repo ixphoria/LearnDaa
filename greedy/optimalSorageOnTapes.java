@@ -18,9 +18,9 @@ public class Main
         for(int i=0;i<n;i++)
         {
             int sum=0;
-            for(int j=0;j<i;j++)
+            for(int j=0;j<=i;j++)
             {
-                sum+=l[i];
+                sum+=l[j];
             }
             MRT+=sum;
         }
